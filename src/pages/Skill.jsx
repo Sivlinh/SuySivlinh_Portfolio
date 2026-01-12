@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 
 export default function Skill() {
   const skills = [
-    { name: "HTML", level: 90, icon: "🌐" },
-    { name: "CSS", level: 85, icon: "🎨" },
-    { name: "JavaScript", level: 80, icon: "⚡" },
-    { name: "React", level: 85, icon: "⚛️" },
-    { name: "Tailwind CSS", level: 90, icon: "💨" },
-    { name: "Git", level: 75, icon: "📚" },
-    { name: "Node.js", level: 70, icon: "🟢" },
-    { name: "Python", level: 65, icon: "🐍" },
+    { name: "HTML", level: 80, icon: "🌐" },
+    { name: "CSS", level: 75, icon: "🎨" },
+    { name: "JavaScript", level: 60, icon: "⚡" },
+    { name: "React", level: 65, icon: "⚛️" },
+    { name: "Tailwind CSS", level: 60, icon: "💨" },
+    { name: "Git", level: 45, icon: "📚" },
+    { name: "Node.js", level: 40, icon: "🟢" },
+    { name: "Python", level: 35, icon: "🐍" },
   ];
 
   const containerVariants = {

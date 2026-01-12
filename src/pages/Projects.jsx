@@ -1,51 +1,23 @@
 import { motion } from "framer-motion";
 import ProjectCard from "../component/ProjectCard";
+import { div } from "framer-motion/client";
 
 export default function Projects() {
+  
   const projects = [
     {
-      title: "Portfolio Website",
-      tech: "React, Tailwind CSS, Framer Motion",
-      desc: "A modern, responsive portfolio website showcasing my skills and projects with smooth animations.",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "E-commerce Platform",
-      tech: "React, Node.js, MongoDB",
-      desc: "Full-stack e-commerce application with user authentication, payment integration, and admin dashboard.",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Task Management App",
-      tech: "React, Firebase",
-      desc: "Collaborative task management tool with real-time updates, drag-and-drop functionality.",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Weather Dashboard",
-      tech: "JavaScript, API Integration",
-      desc: "Interactive weather application with location-based forecasts and beautiful data visualizations.",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Blog Platform",
-      tech: "Next.js, Markdown",
-      desc: "Static blog generator with markdown support, SEO optimization, and responsive design.",
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Chat Application",
-      tech: "React, Socket.io",
-      desc: "Real-time chat application with multiple rooms, emoji support, and file sharing capabilities.",
-      link: "#",
-      github: "#"
+      title: "E-commerce Skin Care Platform",
+      tech: "React, Node.js, Tailwind CSS",
+      desc: "Front-end e-commerce application with user authentication,you can buy many products with payment integration.",
+      link: "https://clover-leaf-ten.vercel.app/",
+      github: "https://github.com/Sivlinh/CloverLeaf"
+      
     }
+
+  
+   
   ];
+  
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -105,8 +77,7 @@ export default function Projects() {
           transition={{ duration: 0.6, delay: 0.8 }}
         >
           <p className="text-gray-400 max-w-2xl mx-auto mb-6">
-            These are some of the projects I've worked on. Each one represents a learning experience
-            and showcases different aspects of my development skills.
+            These are some of the projects I've worked on. Feel free to explore more of my work on GitHub.
           </p>
           <a
             href="#"
@@ -124,3 +95,4 @@ export default function Projects() {
     </motion.section>
   );
 }
+

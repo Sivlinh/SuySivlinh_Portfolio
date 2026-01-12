@@ -9,7 +9,7 @@ export default function Home() {
         {/* Text */}
         <div>
           <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
-            Hi, I’m <span className="text-indigo-500">Linh</span>
+            Hi, I’m <span className="text-indigo-500">Sivlinh</span>
           </h1>
 
           <p className="mt-4 text-lg text-gray-400 max-w-md">
