@@ -11,8 +11,8 @@ export default function Footer() {
     >
       <div className="max-w-6xl mx-auto px-6">
         <p className="mb-4">© 2026 Suy Sivlinh. All rights reserved.</p>
-        <p className="text-sm text-gray-600">
-          Built with ❤️ using React, Tailwind CSS, and Framer Motion
+        <p className="text-sm text-gray-600 ">
+         Built with React, Tailwind CSS, and Framer Motion.
         </p>
       </div>
     </motion.footer>

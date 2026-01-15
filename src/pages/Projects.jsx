@@ -80,7 +80,7 @@ export default function Projects() {
             These are some of the projects I've worked on. Feel free to explore more of my work on GitHub.
           </p>
           <a
-            href="#"
+            href="https://github.com/Sivlinh"
             className="btn inline-flex items-center"
             target="_blank"
             rel="noopener noreferrer"
